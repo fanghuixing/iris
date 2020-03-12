@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+
 	app := iris.New()
 	app.Logger().SetLevel("debug")
 	// Optionally, add two built'n handlers
